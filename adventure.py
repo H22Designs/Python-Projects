@@ -30,6 +30,7 @@ def begin():
             print("Sorry to hear you will not be staying with us this evening")
             input("\n\nPress the enter key to exit.")
         else:
+            clear()
             print("I don't understand.")
 
 def great_hall():
@@ -48,6 +49,7 @@ def great_hall():
         elif proceed == "right":
             great_hall()
         else:
+            clear()
             print("\nI don't understand that. Please type 'forward' or 'left'.")
 
 def kitchen():
@@ -69,6 +71,7 @@ def kitchen():
         elif proceed2 == "forward":
             kitchen()
         else:
+            clear()
             print("\nI don't understand that. Please type 'right', 'left', or 'back.")
 
 def pantry():
@@ -84,6 +87,7 @@ def pantry():
         if proceed3 == "back":
             kitchen()
         else:
+            clear()
             print("\nI don't understand that. Please type 'back.")
 
 def freezer():
@@ -113,6 +117,7 @@ def hallway():
         elif proceed4 == "back":
             great_hall()
         else:
+            clear()
             print("\nI don't understand that. Please type 'right', 'left', 'forward', or 'back.")
 
 def toilet():
@@ -132,6 +137,7 @@ def toilet():
         elif proceed5 == "right":
             toilet()
         else:
+            clear()
             print("\nI don't understand that. Please type 'back.")
 
 def stairwell():
@@ -152,6 +158,7 @@ def stairwell():
         elif answer == "no":
             hallway()
         else:
+            clear()
             print("\nI don't understand that. Please type 'yes' or 'no'.\n")
 
 def corridor():
@@ -168,6 +175,7 @@ def corridor():
     elif proceed6 == "back":
         hallway()
     else:
+        clear()
         print("\nI don't understand that. Please type 'left', 'right', or 'back.\n")
 
 def study():
@@ -183,6 +191,7 @@ def study():
     if proceed7 == "back":
         corridor()
     else:
+        clear()
         print("\nI don't understand that. Please type 'back'.")
 
 def bed_chambers():
